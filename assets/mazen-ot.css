@@ -1,0 +1,32 @@
+
+.mazen-ot-wrap{display:flex;justify-content:center;padding:18px}
+.mazen-ot-card{max-width:680px;width:100%;background:#fff;border:1px solid #eee;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.05);overflow:hidden}
+.mazen-ot-head{padding:18px 18px 10px;background:linear-gradient(180deg,#fafafa,#fff)}
+.mazen-ot-title{font-size:22px;font-weight:800}
+.mazen-ot-sub{color:#666;margin-top:6px}
+.mazen-ot-form{padding:18px;display:grid;gap:10px}
+.mazen-ot-label{font-weight:700}
+.mazen-ot-input{width:100%;padding:12px 14px;border:1px solid #ddd;border-radius:12px;font-size:15px;outline:none}
+.mazen-ot-input:focus{border-color:#999}
+.mazen-ot-btn{padding:12px 14px;border:0;border-radius:12px;font-weight:800;cursor:pointer;background:#111;color:#fff}
+.mazen-ot-btn--ghost{background:#f2f2f2;color:#111}
+.mazen-ot-row{display:flex;gap:10px}
+.mazen-ot-msg{padding:10px 12px;border-radius:12px;background:#f7f7f7;color:#111}
+.mazen-ot-results{padding:0 18px 18px}
+.mazen-ot-order{border:1px solid #eee;border-radius:16px;padding:14px;margin-top:12px}
+.mazen-ot-order-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.mazen-ot-order-title{font-size:18px;font-weight:900}
+.mazen-ot-badges{display:flex;gap:8px;flex-wrap:wrap}
+.mazen-ot-badge{padding:6px 10px;border-radius:999px;background:#f2f2f2;font-weight:800;font-size:12px}
+.mazen-ot-badge--paid{background:#eaf7ee}
+.mazen-ot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:10px}
+@media(max-width:640px){.mazen-ot-grid{grid-template-columns:1fr}.mazen-ot-row{flex-direction:column}}
+.mazen-ot-kv{background:#fafafa;border:1px solid #eee;border-radius:14px;padding:10px}
+.mazen-ot-kv span{display:block;color:#666;font-size:12px;font-weight:700;margin-bottom:3px}
+.mazen-ot-kv strong{font-size:14px}
+.mazen-ot-kv--waybill{border-color:#ddd;background:#fff}
+.mazen-ot-items{margin-top:12px}
+.mazen-ot-items-title{font-weight:900;margin-bottom:6px}
+.mazen-ot-items ul{margin:0;padding:0 18px}
+.mazen-ot-muted{color:#666}
+.mazen-ot-empty{padding:14px;border:1px dashed #ddd;border-radius:14px;color:#666}
